@@ -9,7 +9,7 @@ fatal: Authentication failed for 'https://github.com/q111111jf/lerngit.git/'
 
 Administrator@ADMIN MINGW32 ~/learngit (master)
 $ git remote add origin git@github.com:q111111jf/lerngit.git
-fatal: remote origin already exists.
+fatal: remote origin already exists.齐金峰 注释：这里用的 默认 的 https 方式，不成功 虽然报告已经存在但是 每次上传都要用户名，密码 都不成功
 
 Administrator@ADMIN MINGW32 ~/learngit (master)
 $ git push -u origin  master
@@ -36,7 +36,7 @@ remote: Invalid username or password.
 fatal: Authentication failed for 'https://github.com/q111111jf/lerngit.git/'
 
 Administrator@ADMIN MINGW32 ~/learngit (master)
-$ git remote add origin1 git@github.com:q111111jf/lerngit.git 齐金峰 注释：这里改变 默认 的 https 方式，为 SHH 方式 成功
+$ git remote add origin1 git@github.com:q111111jf/lerngit.git 齐金峰 注释：这里改变 默认 的 https 方式，为 SHH 方式 成功 origin1后面是在Git的网上复制过来的
 
 Administrator@ADMIN MINGW32 ~/learngit (master)
 $ git push -u origin1 master
